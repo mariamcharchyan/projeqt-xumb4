@@ -3,3 +3,5 @@ let b=8;
 console.log(a+b);
 
 let x = 10;
+
+let = 11;
