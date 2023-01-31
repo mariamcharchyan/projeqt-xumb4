@@ -2,11 +2,6 @@ let a=5;
 let b=8;
 console.log(a+b);
 
-
-Anna Serobyan <anna.serobyan97@gmail.com>
-Mo., 30. Jan., 21:05 (vor 18 Stunden)
-an anna.serobyan1997
-
 class Department {
   constructor(name) {
     this.name = name;
@@ -36,3 +31,36 @@ const employee2 = new Employee("Aaron", 55000, "Data Scientist");
 
 employee1.child_Show();
 employee2.child_Show()
+
+class MyArr{
+	constructor(arr){
+		this.arr=arr
+		
+	}
+    indexOf(val){
+        for(let i = 0; i < this.arr.length; i++){
+        if(this.arr[i] === val){
+         return i;
+         }
+            return -1;
+        }
+     }
+     forEach(){
+        for(let i = 0; i < this.arr.length; i++){
+            return this.arr[i];
+        }
+     }
+     map(){
+        for(let i = 0; i < this.arr.length; i++){
+            return this.arr[i] *2;
+        }
+     }
+}
+
+const myarr= new MyArr(1,2,3,4);
+myarr.map();
+console.log(a-b);
+
+
+let x = 10;
+
