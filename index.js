@@ -30,3 +30,8 @@ class MyArr{
 
 const myarr= new MyArr(1,2,3,4);
 myarr.map();
+console.log(a-b);
+
+
+let x = 10;
+
