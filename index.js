@@ -2,6 +2,7 @@ let a=5;
 let b=8;
 console.log(a+b);
 
+
 class Department {
   constructor(name) {
     this.name = name;
@@ -59,8 +60,9 @@ class MyArr{
 
 const myarr= new MyArr(1,2,3,4);
 myarr.map();
+
 console.log(a-b);
+console.log(a/b);
 
 
-let x = 10;
 
