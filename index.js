@@ -68,7 +68,7 @@ class MyArr{
 }
 
 const myarr= new MyArr(1,2,3,4);
-<<<<<<< HEAD
+
 myarr.indexOf();
 
 
@@ -77,12 +77,17 @@ myarr.indexOf();
 
 
 // let x = 10;
-=======
+
 myarr.map();
 
 console.log(a-b);
 console.log(a/b);
 
 
->>>>>>> b328b83183406503b4836bcf70eaad86e7e45501
+
+
+
+let x = 10;
+
+let = 11;
 
